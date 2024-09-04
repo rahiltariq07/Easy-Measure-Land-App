@@ -10,3 +10,6 @@ document.getElementById('get-started').addEventListener('click', () => {
     window.location.href = './start/start.html'
 });
 
+document.getElementById('area-converter').addEventListener('click', () => {
+    window.location.href = './start/start.html'
+});
