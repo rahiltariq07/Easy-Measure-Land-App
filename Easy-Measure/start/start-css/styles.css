@@ -14,7 +14,6 @@ header {
     margin-bottom: 20px;
 }
 
-/* Navbar Styles */
 .navbar {
     background-color: #2d1f49;
     width: 100%;
@@ -24,15 +23,14 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 0 20px;
-    padding-left: 15px; /* Space for logo shift */
-    padding-right: 70px; /* Space for Get Started button */
+    padding-left: 15px;
+    padding-right: 70px;
     position: fixed;
     top: 0;
     left: 0;
     z-index: 1000;
 }
 
-/* Navbar Logo */
 .nav-logo {
     display: flex;
 }
@@ -40,10 +38,9 @@ header {
 #photo-logo {
     width: 212px;
     height: auto;
-    margin-left: 40px; /* Adjusted margin */
+    margin-left: 40px;
 }
 
-/* Navbar Links */
 .nav-links {
     display: flex;
     align-items: center;
@@ -69,7 +66,6 @@ header {
     transition: 0.3s ease-in-out;
 }
 
-/* Get Started Button */
 .get-started-btn {
     background-color: #553d94;
     color: white;
@@ -90,7 +86,6 @@ header {
     background-color: #6a5897;
 }
 
-/* Menu Icon */
 .menu-icon {
     display: none;
     flex-direction: column;
@@ -138,7 +133,6 @@ textarea {
     margin-bottom: 20px;
 }
 
-/* Footer Styles */
 footer {
     background-color: #2d1f49;
     color: #fff;
@@ -147,7 +141,6 @@ footer {
     position: relative;
 }
 
-/* Footer Container */
 .footer-container {
     display: flex;
     justify-content: space-around;
@@ -177,7 +170,6 @@ footer {
     color: #e880f1;
 }
 
-/* Footer Bottom */
 .footer-bottom {
     margin-top: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -188,8 +180,8 @@ footer {
         justify-content: space-between;
         height: 70px;
         padding: 0 15px;
-        padding-left: 10px; /* Reduced padding for logo shift */
-        padding-right: 15px; /* Adjusted padding for button space */
+        padding-left: 10px; 
+        padding-right: 15px;
     }
 
     .nav-logo img {
@@ -197,7 +189,7 @@ footer {
     }
 
     .nav-links {
-        display: none; /* Hide the links in responsive view */
+        display: none; 
     }
 
     #photo-logo {
@@ -212,7 +204,6 @@ footer {
         margin-left: 0;
     }
 
-    /* Menu Icon */
     .menu-icon {
         display: block;
         width: 30px;
@@ -228,7 +219,6 @@ footer {
         margin: 5px 0;
     }
 
-    /* Show the menu when icon is clicked */
     .navbar.active .nav-links {
         display: flex;
         flex-direction: column;
